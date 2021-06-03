@@ -1,11 +1,12 @@
 import React from 'react';
+import ExpenseItem from './components/ExpenseItem';
 import './App.css';
 
-const App=({greeting})=> {
+function App(){
   return (
-   
       <div>
-      <h2>{greeting}</h2>
+      <ExpenseItem/>
+      <img className="apple" src="https://www.applesfromny.com/wp-content/uploads/2020/05/Jonagold_NYAS-Apples2.png"/>
       </div>
   );
 }
