@@ -12,9 +12,11 @@ function ExpenseItem(props) {
       <div>{year}</div>
       <div className="expense-item__description">
         <h2>{props.name}</h2>
+        <h2>test</h2>
         <div className="expense-item__price">${props.amount}</div>
       </div>
     </div>
   );
+
 }
 export default ExpenseItem;
